@@ -2,7 +2,7 @@
 ## Financial Transactions ETL & Fraud Detection Pipeline (Plaid + Azure)
 
 An **end-to-end ETL and ML pipeline** built with the **Plaid API**, **Azure Data Factory**, **Azure Databricks**, and **Delta Lake**.
-This project extracts real-time financial transactions, cleans and normalizes them using PySpark, detects anomalies (fraud) with unsupervised ML, and stores final insights in Delta tables on Azure Data Lake.
+This project extracts  financial transactions, cleans and normalizes them using PySpark, detects anomalies (fraud) with unsupervised ML, and stores final insights in Delta tables on Azure Data Lake.
 
 ---
 
