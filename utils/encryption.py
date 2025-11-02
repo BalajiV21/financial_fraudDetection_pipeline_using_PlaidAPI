@@ -1,8 +1,11 @@
 from cryptography.fernet import Fernet
 import os
+from dotenv import load_dotenv
 
-FERNET_KEY = os.environ.get("FERNET_KEY") or Fernet.generate_key()
+load_dotenv()
+FERNET_KEY = os.getenv("FERNET_KEY") or Fernet.generate_key()
 cipher = Fernet(FERNET_KEY)
+
 
 def encrypt_data(value):
     if not value:

@@ -5,3 +5,5 @@ azure-storage-blob
 cryptography
 mlflow
 delta-spark
+python-dotenv
+
