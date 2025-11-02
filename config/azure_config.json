@@ -1,0 +1,7 @@
+{
+  "storage_account_name": "mystorageaccount",
+  "container_name": "financial-transactions",
+  "databricks_cluster_id": "my-cluster-id",
+  "workspace_url": "https://adb-xxxx.azuredatabricks.net",
+  "delta_path": "abfss://financial-transactions@mystorageaccount.dfs.core.windows.net/delta"
+}

@@ -1,0 +1,7 @@
+pandas
+pyspark
+plaid-python
+azure-storage-blob
+cryptography
+mlflow
+delta-spark
